@@ -5,8 +5,6 @@ import spock.lang.Specification
 @RandomizedOrder
 class RandomSpockSpec extends Specification {
 
-    private int i = 10
-
     def "test 1"() {
         when:
         def number = 1
