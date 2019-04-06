@@ -1,10 +1,11 @@
 package com.github.wololock
 
-import org.junit.runner.RunWith
 import spock.lang.Specification
 
-@RunWith(RandomOrder)
+@RandomizedOrder
 class RandomSpockSpec extends Specification {
+
+    private int i = 10
 
     def "test 1"() {
         when:
